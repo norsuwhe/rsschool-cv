@@ -1,24 +1,24 @@
-# Vladimir Semenov
-## Contact info: 
+# Vladimir Semenov #
+## Contact info: ##
 - **Email**: vladimirsemionov796@gmail.com
 - **Discord**: norsuwhe
-## About me: 
+## About me: ##
 - **A coffee addict**
 - **A Front-end development enthusiast**
 - **Electronic music nerd**
-## Skills: 
+## Skills: ##
 - **HTML**
 - **CSS/SCSS**
 - **Javascript**
 - **Git/GitHub**
-## Code example: 
+## Code example: ## 
 ```
 const solution = str => str.split('').reverse().join('')
 ```
-## Front-end work experience: 
+## Front-end work experience: ## 
 - **None**
-## Education: 
+## Education: ##
 - A lot of **learn.javascript.ru**
 - **MDN Web Docs**
-## English: 
+## English: ##
 - **Upper intermediate** (**B2**)
