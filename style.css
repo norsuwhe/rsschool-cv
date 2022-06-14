@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.col-width-1 {
+    width: 170px;
+}
+
+.col-width-2 {
+    width: 600px;
+}
+
+.header-background {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 825px;
+    background-color: #1e1e1c;
+}
+
+.header {
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header__hero {
+    display: flex;
+    padding-bottom: 230px;
+    color: #fffffd;
+    font-weight: 900;
+}
+
+.header__name,
+.header__second-name,
+.header__spec {
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    font-weight: 900;
+}
+
+.header__name {
+    font-size: 96px;
+    margin-right: -55px;
+}
+
+.header__second-name {
+    font-size: 128px;
+}
+
+.header__spec {
+    font-size: 27px;
+    margin-left: -20px;
+}
+.header__about-me {
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: #fffffd;
+}
+
+.header__about-me-header {
+    font-size: 60px;
+    font-weight: 900;
+    color: #fffffd;
+    margin-bottom: 45px;
+}
+
+.header__about-me-text {
+    color: #fffffd;
+    margin-bottom: 45px;
+}
+
+.header__my-img {
+    width: 600px;
+    height: 625px;
+    object-fit: cover;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.minus-margin {
+    margin-top: -70px;
+}
+
+.info-card {
+    margin-bottom: 65px;
+}
+
+.info-card__header {
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.info-card__text {
+    color: #7b7b7b;
+    font-size: 14px;
+}
+
+.info-card__text-last {
+    color: #7b7b7b;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.info-card__text-important {
+    color: #383838;
+    margin-bottom: 4px;
+}
+
+.col-width-2.grid {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.footer__logo {
+    width: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    color: #1e1e1c;
+}
+
+.footer__text {
+    font-weight: 400;
+    font-size: 20px;
+}
